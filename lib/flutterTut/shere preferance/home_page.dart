@@ -45,6 +45,7 @@ class _homeShareState extends State<homeShare> {
             ElevatedButton(onPressed: ()async{
               /// Set data here
               prefs!.setString("name", nameController.text); /// (! ---> its give the guarantee to value is coming)
+              // getDat(); /// HERE WE getDat USED FOR SET DATA IMMEDIATELY
             }, child:Text('Save',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.blue),))
           ],
         ),
