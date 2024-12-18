@@ -25,8 +25,8 @@ class whatsAppchat extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     List<Map<String, dynamic>> mData = [
-      {'name':'Raj singh','chat':'hiii...','time':'02:32 AM','Unreadchat':'3' },
-      {'name':'Raj singh','chat':'hiii...','time':'02:32 AM','Unreadchat':'3' },
+      {'name':'Raj singh','chat':'hiii...','time':'02:32 AM','Unreadchat':'3',  },
+      {'name':'Raj singh','chat':'kaise ho','time':'02:32 AM','Unreadchat':'1' },
       {'name':'Raj singh','chat':'hiii...','time':'02:32 AM','Unreadchat':'3' },
       {'name':'Raj singh','chat':'hiii...','time':'02:32 AM','Unreadchat':'3' },
       {'name':'Raj singh','chat':'hiii...','time':'02:32 AM','Unreadchat':'3' },
